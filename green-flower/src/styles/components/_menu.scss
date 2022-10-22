@@ -1,0 +1,61 @@
+.menu {
+    height: 80px;
+    background: rgb(146, 216, 152);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+    .menu-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 20%;
+        
+        h1{
+            font-size: 1.8rem;
+            font-family: $font-1;
+        }
+        img{
+            height: 40px;
+        }
+    }
+
+    .menu-nav{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+
+            li {
+                font-family: $font-1;
+                font-weight: bold;
+                color: black;
+                transition: all 0.5s;
+
+                &:hover{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        
+    }
+
+    .menu-icons{
+        width: 10%;
+        
+        ul{
+            display: flex;
+         
+            justify-content: space-around;
+            li{
+                color: black;
+            }
+        }
+    }
+}
