@@ -1,0 +1,22 @@
+.image-container{
+display: flex;
+justify-content: center;
+}
+
+.main-image-display{
+    
+    height: 400px;
+    width: 1000px;
+    margin: 50px 50px 0px 50px;
+    border-radius: 30px;
+    transition: all 0.5s;
+
+    h2{
+        color: white;
+        font-size: 5rem;
+    }
+
+    &:hover{
+        filter: brightness(50%);
+    }
+}
