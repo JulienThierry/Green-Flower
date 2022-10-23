@@ -1,5 +1,7 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import ImageDisplay from '../components/ImageDisplay';
+import Infos from '../components/Infos';
 import MainImageDisplay from '../components/MainImageDisplay';
 import Menu from '../components/Menu';
 
@@ -17,6 +19,8 @@ const Home = () => {
                 <ImageDisplay imgPath="./cadeaux.jpg" text="CADEAUX" />
                 <ImageDisplay imgPath="./contact.jpg" text="CONTACT" />
             </div>
+            <Infos />
+            <Footer />
         </div>
     );
 };

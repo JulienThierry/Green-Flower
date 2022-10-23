@@ -1,0 +1,19 @@
+.infos{
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+    span{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
+        font-weight: bold;
+
+        i, a{
+            font-weight: lighter;
+            font-style: italic;
+        }
+    }
+}
