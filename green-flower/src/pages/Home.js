@@ -12,10 +12,10 @@ const Home = () => {
             <div className="img-home">
                 <ImageDisplay imgPath="./bouquet.jpg" text="BOUQUETS" />
                 <ImageDisplay imgPath="./graines.jpg" text="GRAINES" />
-                <ImageDisplay imgPath="./box.jpg" text="titre" />
-                <ImageDisplay imgPath="./box.jpg" text="titre" />
-                <ImageDisplay imgPath="./box.jpg" text="titre" />
-                <ImageDisplay imgPath="./box.jpg" text="titre" />
+                <ImageDisplay imgPath="./fleurs.jpg" text="FLEURS" />
+                <ImageDisplay imgPath="./offre.jpg" text="OFFRES" />
+                <ImageDisplay imgPath="./cadeaux.jpg" text="CADEAUX" />
+                <ImageDisplay imgPath="./contact.jpg" text="CONTACT" />
             </div>
         </div>
     );
