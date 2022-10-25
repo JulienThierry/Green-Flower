@@ -1,0 +1,32 @@
+.card-container{
+    background: rgb(183, 223, 190);
+    height: 350px;
+    width: 250px;
+    border-radius: 30px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       
+
+        img{
+            height: 200px;
+            width: 170px;
+            border-radius: 30px;
+        }
+
+
+    }
+   
+    button{
+        margin: 20px;
+        width: 150px;
+    }
+}
