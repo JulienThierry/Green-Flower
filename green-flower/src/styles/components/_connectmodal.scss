@@ -1,0 +1,21 @@
+.connect-modal-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .connect-modal{
+        
+        text-align: center;
+        min-width: 600px;
+        min-height: 500px;
+        background: rgb(120, 214, 120);
+        border-radius: 30px;
+        box-shadow: 1px 1px 5px rgb(95, 95, 95);
+
+       
+        
+    }
+
+}
+

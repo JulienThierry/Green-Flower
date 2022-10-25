@@ -26,7 +26,7 @@ const SignUp = () => {
             <div className="signup">
                 <h3>S'inscrire</h3>
                 <form onSubmit={(e) => handleRegister(e)}>
-                    <input type="text" placeholder='Pseudo' required onChange={(e) => setDisplayName(e.target.value)} />
+                    <input type="text" placeholder="Nom d'utilisateur" required onChange={(e) => setDisplayName(e.target.value)} />
                     <input type="email"
                         placeholder="Email"
                         required ref={registerEmail} />
@@ -36,6 +36,8 @@ const SignUp = () => {
                     <input type="submit" value="Valider" />
                 </form>
             </div>
+
+
         </div>
     );
 };

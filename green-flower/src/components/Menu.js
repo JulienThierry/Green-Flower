@@ -24,10 +24,10 @@ const Menu = () => {
             <div className="menu-icons">
                 <ul>
                     <NavLink to="/profile">
-                        <li><i class="fa-solid fa-user"></i></li>
+                        <li><i className="fa-solid fa-user"></i></li>
                     </NavLink>
                     <NavLink to="/cart">
-                        <li><i class="fa-solid fa-cart-shopping"></i></li>
+                        <li><i className="fa-solid fa-cart-shopping"></i></li>
                     </NavLink>
                 </ul>
 
