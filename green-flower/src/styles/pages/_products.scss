@@ -1,5 +1,40 @@
+.sort-bar{
+    background: rgb(183, 223, 190);
+    margin: 20px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    ul{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        li{
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            background: rgb(129, 201, 129);
+            border-radius: 20px;
+            transition: all 0.5s;
+
+            &:hover{
+                background:rgb(104, 163, 104);
+            }
+        }
+    }
+    
+
+}
+
+
 .products{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+
+
 }
