@@ -6,14 +6,15 @@ const SignUp = () => {
     const registerPassword = useRef();
     const [displayName, setDisplayName] = useState("");
 
+
     const handleRegister = (e) => {
         e.preventDefault();
         try {
             auth.createUserWithEmailAndPassword(registerEmail.current.value, registerPassword.current.value)
                 .then(async (userAuth) => {
                     await userAuth.user.updateProfile({
-                        displayName
-                    });
+                        displayName,
+                    })
                     window.location.reload();
                 });
         } catch (error) {
@@ -27,6 +28,7 @@ const SignUp = () => {
                 <h3>S'inscrire</h3>
                 <form onSubmit={(e) => handleRegister(e)}>
                     <input type="text" placeholder="Nom d'utilisateur" required onChange={(e) => setDisplayName(e.target.value)} />
+
                     <input type="email"
                         placeholder="Email"
                         required ref={registerEmail} />
